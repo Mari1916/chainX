@@ -33,18 +33,18 @@ main {
     color: #333;
 }
 
+.texto-inicial p {
+    font-size: 20px;
+}
+
 .container .texto-inicial, .container-senha {
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
-.container-senha {
-    margin-top: 200px;
-    
-}
 
 .texto-inicial .linha-texto {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .linha-texto {
@@ -72,13 +72,11 @@ form {
 }
 
 label {
-    margin-top: 10px;
     font-weight: bold;
-    padding: 10px;
+    padding: 5px;
 }
 
 input {
-    margin-top: 5px;
     padding: 10px;
     width: 30%;
     height: 100px;

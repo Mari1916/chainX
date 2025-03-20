@@ -1,28 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(to bottom, #000000, #272042, #000000);
-    height: 100vh;
+  background: linear-gradient(to bottom, #000000, #272042, #000000);
+  height: 100vh;
 }
 
 header {
-    background-color: transparent;
+  background-color: transparent;
+  display: flex;
 }
 
-header, a {
-    display: flex;
-    
-}
 .logo {
-    margin-right: 1900px;
-    display: flex;
-    justify-content: start;
-    object-fit: cover;
+  margin-right: 1900px;
+  display: flex;
+  justify-content: start;
+  object-fit: cover;
 }
+
 .navbar {
   color: aliceblue;
   display: flex;
@@ -30,40 +28,48 @@ header, a {
   gap: 10px;
   padding: 20px;
 }
+
 .Link {
-    margin-top: 16px;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 26px;  
+  margin-top: 16px;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 26px;
 }
+
 .Link:hover {
-    color: #482252;
-    cursor: pointer;
-    transition: all 0.5s;
-}  
-.ButtonCadastro {
-    font-size: 26px;
-    padding: 10px;
-    border-radius: 11px;
-    margin: 8px;
-    color: aliceblue;
-    text-decoration: none;
-    background: linear-gradient(to left, #b12092, #3f025b);
-  }
-  .ButtonCadastro:hover {
-    opacity: 70%;
-    transition: all 0.5s;
-    cursor: pointer;
-  }
-.imgMoeda {
- margin: 10px 1260px;
+  color: #482252;
+  cursor: pointer;
+  transition: all 0.5s;
 }
+
+.ButtonCadastro {
+  font-size: 26px;
+  padding: 10px;
+  border-radius: 11px;
+  margin: 8px;
+  color: aliceblue;
+  text-decoration: none;
+  background: linear-gradient(to left, #b12092, #3f025b);
+}
+
+.ButtonCadastro:hover {
+  opacity: 70%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.imgMoeda {
+  margin: 10px 1260px;
+}
+
 /*Página About*/
-.texto-about, .h1, .p {
-    font-size: 26px;
-    width: 100px;
-    height: 150px;
-    color: rgb(255, 255, 255);
+.texto-about,
+.h1,
+.p {
+  font-size: 26px;
+  width: 100px;
+  height: 150px;
+  color: rgb(255, 255, 255);
 }
 
 
