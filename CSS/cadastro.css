@@ -4,11 +4,144 @@
     box-sizing: border-box;
 }
 
+.logo {
+    margin-left: 8px;
+    display: flex;
+    justify-content: start;
+    object-fit: cover;
+}
+
 body {
     font-family: Arial, sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
+}
+
+main {
+    padding: 50px;
+}
+
+.texto-inicial {
+    padding: 20px;
+}
+
+.texto-inicial h3 {
+    font-size: 30px;
+    color: #333;
+}
+
+.container .texto-inicial, .container-senha {
+    text-align: center;
+    padding: 30px;
+}
+
+.container-senha {
+    margin-top: 200px;
+    
+}
+
+.texto-inicial .linha-texto {
+    padding-top: 50px;
+}
+
+.linha-texto {
+    color: #c4bbbb;
+    text-align: center; /* Centraliza o texto e a linha */
+}
+
+.linha-texto hr {
+    width: 50%; /* Define o comprimento da linha */
+    border: none; /* Remove as bordas padrão */
+    height: 5px; /* Define a espessura da linha */
+    background-color: #e0e0e0; /* Define a cor da linha */
+    margin: 10px auto; /* Espaçamento e centralização */
+}
+
+h1 {
+    font-size: 60px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 30%;
+    height: 100px;
+    background-color: #e7e7e7;
+    border: none;
+    border-bottom: 5px solid rgb(179, 174, 174);
+    font-size: 30px;
+    outline: none;
+}
+
+#registro p {
+    font-size: 20px;
+    margin-left: 580px;
+}
+
+#registro a {
+    text-decoration: underline;
+}
+
+.Link {
+    margin-top: 16px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.Link:hover {
+    color: #482252;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.continuar {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 11px;
+    border: none;
+    margin: 8px;
+    color: aliceblue;
+    text-decoration: none;
+    background: linear-gradient(to left, #b12092, #3f025b);
+    width: 300px;
+    height: 80px;
+    gap: 15px;
+}
+
+.continuar:hover {
+    opacity: 70%;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+
+p {
+    color: #c4bbbb;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+a {
+    color: #6a0dad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }

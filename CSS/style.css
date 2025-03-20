@@ -17,31 +17,24 @@ header, a {
     display: flex;
     
 }
-
 .logo {
+    margin-right: 1900px;
     display: flex;
     justify-content: start;
-    height: 20px;
-    width: 20px;
-}
-  .logo {
-    display: flex;
-    justify-content: start;
-    height: 20px;
-    width: 20px;
+    object-fit: cover;
 }
 .navbar {
-    color: aliceblue;
-    display: flex;
-    justify-content: end;
-    gap: 10px;
-    padding: 20px;
+  color: aliceblue;
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  padding: 20px;
 }
 .Link {
     margin-top: 16px;
     text-decoration: none;
     color: aliceblue;
-    font-size: 26px;
+    font-size: 26px;  
 }
 .Link:hover {
     color: #482252;
@@ -60,25 +53,31 @@ header, a {
   .ButtonCadastro:hover {
     opacity: 70%;
     transition: all 0.5s;
+    cursor: pointer;
   }
+.imgMoeda {
+ margin: 10px 1260px;
+}
+/*Página About*/
+.texto-about, .h1, .p {
+    font-size: 26px;
+    width: 100px;
+    height: 150px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
 
 /*
  
 
-
-
-
-
-
-
-
-
-
-
-.navbar .imgLogo {
-  display: flex;
-  margin-right: 1200px;
-}
 
 .imgMoeda {
   margin-right: 100px;
