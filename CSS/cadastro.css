@@ -25,7 +25,7 @@ header .texto-inicial {
     text-align: center;
 }
 
- header .texto-inicial h3 {
+header .texto-inicial h3 {
     font-size: 15px;
     color: #333;
 }
@@ -34,9 +34,15 @@ header .texto-inicial p {
     font-size: 20px;
 }
 
-.container .texto-inicial, .container-senha {
+.container .texto-inicial,
+.container-senha {
     text-align: center;
     padding: 20px;
+}
+
+.container-sucesso {
+    text-align: center;
+    margin: 200px;
 }
 
 
@@ -50,11 +56,11 @@ header .texto-inicial p {
 }
 
 .linha-texto hr {
-    width: 50%; 
-    border: none; 
-    height: 5px; 
-    background-color: #e0e0e0; 
-    margin: 10px auto; 
+    width: 50%;
+    border: none;
+    height: 5px;
+    background-color: #e0e0e0;
+    margin: 10px auto;
 }
 
 h1 {
@@ -124,7 +130,7 @@ input {
 .continuar-cad:hover {
     opacity: 70%;
     transition: all 0.5s;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .continuar {
@@ -144,7 +150,7 @@ input {
 .continuar:hover {
     opacity: 70%;
     transition: all 0.5s;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 p {
