@@ -1,0 +1,142 @@
+body {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.texto {
+    margin-top: 50px;
+}
+
+.register {
+    background: purple;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.desenvolvedores {
+    margin: 50px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-left: 290px;
+    width: 60%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* From Uiverse.io by Valeron-T */
+.card {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 350px;
+}
+
+.card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.card .social-link1,
+.card .social-link2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card svg {
+    transform: scale(1);
+}
+
+.card .social-link1:hover {
+    cursor: pointer;
+    
+    background-color: #4b1c59;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+    background-color: #4b1c59;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.highlight {
+    width: 100%;
+    height: 2px;
+    background: purple;
+    margin: 10px 0;
+}
