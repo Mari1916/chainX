@@ -139,6 +139,12 @@ nav a {
   width: 90px;
 }
 
+.simulador {
+  display: flex;
+  align-items: center;
+}
+
+
 /*Página About*/
 .texto-about,
 .h1,

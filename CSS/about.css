@@ -53,14 +53,14 @@ nav a {
 }
 
 /* From Uiverse.io by Valeron-T */
-.card {
+.card-sobre {
     display: flex;
     justify-content: center;
     height: 40px;
     width: 350px;
 }
 
-.card svg {
+.card-sobre svg {
     position: absolute;
     display: flex;
     width: 60%;
@@ -74,8 +74,8 @@ nav a {
     cursor: pointer;
 }
 
-.card .social-link1,
-.card .social-link2 {
+.card-sobre .social-link1,
+.card-sobre .social-link2 {
     position: relative;
     display: flex;
     align-items: center;
@@ -88,18 +88,18 @@ nav a {
     border-radius: 50px;
 }
 
-.card svg {
+.card-sobre svg {
     transform: scale(1);
 }
 
-.card .social-link1:hover {
+.card-sobre .social-link1:hover {
     cursor: pointer;
     
     background-color: #4b1c59;
     animation: bounce_613 0.4s linear;
 }
 
-.card .social-link2:hover {
+.card-sobre .social-link2:hover {
     background-color: #4b1c59;
     animation: bounce_613 0.4s linear;
 }
